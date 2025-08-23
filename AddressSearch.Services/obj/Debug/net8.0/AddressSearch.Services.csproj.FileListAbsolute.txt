@@ -1,0 +1,11 @@
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\bin\Debug\net8.0\AddressSearch.Services.deps.json
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\bin\Debug\net8.0\AddressSearch.Services.dll
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\bin\Debug\net8.0\AddressSearch.Services.pdb
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.AssemblyInfoInputs.cache
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.AssemblyInfo.cs
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.csproj.CoreCompileInputs.cache
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.dll
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\refint\AddressSearch.Services.dll
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.pdb
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\ref\AddressSearch.Services.dll

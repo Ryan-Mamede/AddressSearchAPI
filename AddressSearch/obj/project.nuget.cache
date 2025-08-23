@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "VBnJ3XmyX5c=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\AddressSearch.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.19\\microsoft.windowsdesktop.app.ref.8.0.19.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.19\\microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.19\\microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
+    "C:\\Users\\ryanm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.19\\microsoft.netcore.app.host.win-x64.8.0.19.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Infra.Data\\AddressSearch.Infra.Data.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "projectPath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\AddressSearch.Api.csproj",
+      "filePath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\AddressSearch.Api.csproj",
+      "libraryId": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Infra.Data\\AddressSearch.Infra.Data.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
