@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressSearch.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8df846c33a0e7d256ba60a3b8121a4fa0a4e3660")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressSearch.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressSearch.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

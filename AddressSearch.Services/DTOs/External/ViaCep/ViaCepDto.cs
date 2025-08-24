@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using AddressSearch.Services.Common;
 
 namespace AddressSearch.Services.DTOs.External.ViaCep;
 
@@ -14,5 +15,9 @@ public record ViaCepDto
     [JsonPropertyName("gia")] public string? Gia { get; init; }
     [JsonPropertyName("ddd")] public string? Ddd { get; init; }
     [JsonPropertyName("siafi")] public string? Siafi { get; init; }
-    [JsonPropertyName("erro")] public bool? Erro { get; init; }
+
+
+    [JsonPropertyName("erro")]
+    [JsonConverter(typeof(FlexibleBoolJsonConverter))]
+    public bool? Erro { get; init; }
 }

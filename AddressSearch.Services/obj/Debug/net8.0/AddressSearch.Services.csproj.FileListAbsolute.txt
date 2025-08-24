@@ -9,3 +9,4 @@ C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\n
 C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\refint\AddressSearch.Services.dll
 C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.pdb
 C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\ref\AddressSearch.Services.dll
+C:\Users\ryanm\Desktop\AddressSearch.Services\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.sourcelink.json

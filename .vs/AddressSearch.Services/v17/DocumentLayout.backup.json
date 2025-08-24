@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch.services\\dtos\\external\\viacep\\viacepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\dtos\\external\\viacep\\viacepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch.services\\common\\flexiblebooljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\common\\flexiblebooljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch.services\\usecases\\localizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\usecases\\localizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +19,32 @@
       "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\mappings\\localizacaomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch.services\\dtos\\responses\\localizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\dtos\\responses\\localizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|solutionrelative:addresssearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch.services\\dtos\\external\\viacep\\viacepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B2EDD5-1ABF-411A-A916-6243521EF085}|AddressSearch.Services\\AddressSearch.Services.csproj|solutionrelative:addresssearch.services\\dtos\\external\\viacep\\viacepdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|solutionrelative:addresssearch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addressearch.infra.data\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|solutionrelative:addressearch.infra.data\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addressearch.infra.data\\sqlserverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|solutionrelative:addressearch.infra.data\\sqlserverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addressearch.infra.data\\persistence\\sqlserverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|solutionrelative:addressearch.infra.data\\persistence\\sqlserverconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addressearch.infra.data\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|solutionrelative:addressearch.infra.data\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|c:\\users\\ryanm\\desktop\\addresssearch.services\\addresssearch\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|solutionrelative:addresssearch\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +67,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LocalizacaoService.cs",
-              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
-              "RelativeDocumentMoniker": "AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
-              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
-              "RelativeToolTip": "AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T17:13:00.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LocalizacaoDto.cs",
-              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\DTOs\\Responses\\LocalizacaoDto.cs",
-              "RelativeDocumentMoniker": "AddressSearch.Services\\DTOs\\Responses\\LocalizacaoDto.cs",
-              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\DTOs\\Responses\\LocalizacaoDto.cs",
-              "RelativeToolTip": "AddressSearch.Services\\DTOs\\Responses\\LocalizacaoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T17:12:29.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ViaCepDto.cs",
               "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs",
               "RelativeDocumentMoniker": "AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs",
-              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs",
-              "RelativeToolTip": "AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs*",
+              "RelativeToolTip": "AddressSearch.Services\\DTOs\\External\\ViaCep\\ViaCepDto.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T17:10:27.669Z",
+              "WhenOpened": "2025-08-24T00:47:39.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FlexibleBoolJsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs",
+              "RelativeDocumentMoniker": "AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs*",
+              "RelativeToolTip": "AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:46:43.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalizacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
+              "RelativeDocumentMoniker": "AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
+              "RelativeToolTip": "AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:40:52.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LocalizacaoMapping.cs",
               "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
               "RelativeDocumentMoniker": "AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
               "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
               "RelativeToolTip": "AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:35:39.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlServerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\SqlServerConfiguration.cs",
+              "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\SqlServerConfiguration.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\SqlServerConfiguration.cs",
+              "RelativeToolTip": "AddresSearch.Infra.Data\\SqlServerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:22:25.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SqlServerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\Persistence\\SqlServerConfiguration.cs",
+              "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\Persistence\\SqlServerConfiguration.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\Persistence\\SqlServerConfiguration.cs",
+              "RelativeToolTip": "AddresSearch.Infra.Data\\Persistence\\SqlServerConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T17:07:44.128Z",
+              "WhenOpened": "2025-08-24T00:19:16.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "AddresSearch.Infra.Data\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:15:50.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddresSearch.Infra.Data\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "AddresSearch.Infra.Data\\IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T00:15:39.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\appsettings.json",
+              "RelativeDocumentMoniker": "AddressSearch\\appsettings.json",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\appsettings.json",
+              "RelativeToolTip": "AddressSearch\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T00:13:47.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AddressSearch\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AddressSearch\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T00:10:15.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\Program.cs",
+              "RelativeDocumentMoniker": "AddressSearch\\Program.cs",
+              "ToolTip": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch\\Program.cs",
+              "RelativeToolTip": "AddressSearch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T23:32:10.671Z",
               "EditorCaption": ""
             }
           ]

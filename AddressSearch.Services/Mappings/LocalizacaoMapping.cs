@@ -8,16 +8,16 @@ public static class LocalizacaoMapping
 {
     public static Localizacao ToEntity(this ViaCepDto v) => new()
     {
-        Cep = v.Cep,
+        Cep = new string(v.Cep.Where(char.IsDigit).ToArray()),
         Logradouro = v.Logradouro,
         Complemento = v.Complemento,
         Bairro = v.Bairro,
         LocalidadeNome = v.Localidade,
         Uf = v.Uf,
-        Ibge = v.Ibge,
-        Gia = v.Gia,
-        Ddd = v.Ddd,
-        Siafi = v.Siafi
+        Ibge = v.Ibge ?? string.Empty,
+        Gia = v.Gia ?? string.Empty,
+        Ddd = v.Ddd ?? string.Empty,
+        Siafi = v.Siafi ?? string.Empty
     };
 
     public static LocalizacaoDto ToDto(this Localizacao e) =>
