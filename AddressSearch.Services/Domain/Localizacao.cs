@@ -21,7 +21,7 @@ namespace AddressSearch.Services.Domain
         public string Siafi { get; set; }
 
         public DateTime DataCriacao { get; set; } = DateTime.UtcNow;
-        public DateTime? DataAtulaizacao { get; set; }
+        public DateTime? DataAtualizacao { get; set; } = DateTime.UtcNow;
 
     }
 }

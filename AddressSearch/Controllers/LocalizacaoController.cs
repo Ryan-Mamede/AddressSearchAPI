@@ -1,4 +1,5 @@
 ﻿using AddressSearch.Services.Contracts;
+using AddressSearch.Services.DTOs.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AddressSearch.Api.Controllers;
@@ -20,5 +21,27 @@ public class LocalizacaoController(ILocalizacaoService service) : ControllerBase
     {
         var i = await service.ObterPorIdAsync(id, ct);
         return i.Success ? Ok(i.Value) : NotFound(i.Errors);
+    }
+
+    [HttpPut("{id:guid}/cep/{cep}")]
+    [ProducesResponseType(typeof(LocalizacaoDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string[]), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(string[]), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> AtualizarPorCep(Guid id, string cep, CancellationToken ct)
+    {
+        var r = await service.AtualizarPorCepAsync(id, cep, ct);
+        if (r.Success) return Ok(r.Value);
+
+        if (r.Errors.Contains("Não encontrado.")) return NotFound(r.Errors);
+        return BadRequest(r.Errors);
+    }
+
+    [HttpDelete("{id:guid}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(typeof(string[]), StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Remover(Guid id, CancellationToken ct)
+    {
+        var r = await service.RemoverAsync(id, ct);
+        return r.Success ? NoContent() : NotFound(r.Errors);
     }
 }
