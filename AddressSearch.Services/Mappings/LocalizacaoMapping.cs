@@ -1,4 +1,4 @@
-﻿using AddressSearch.Services.Domain;
+﻿using AddressSearch.Domain.Domain;
 using AddressSearch.Services.DTOs.External.ViaCep;
 using AddressSearch.Services.DTOs.Responses;
 

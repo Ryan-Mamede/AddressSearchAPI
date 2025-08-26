@@ -1,30 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "AddressSearch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AddressSearch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AddressSearch.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AddressSearch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AddressSearch.Domain/AddressSearch.Domain.csproj",
+      "msbuildProject": "../AddressSearch.Domain/AddressSearch.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "AddressSearch.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\ryanm\\.nuget\\packages\\": {},
+    "C:\\Users\\ryan.freires\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\AddressSearch.Services.csproj",
+      "projectUniqueName": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\AddressSearch.Services.csproj",
       "projectName": "AddressSearch.Services",
-      "projectPath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\AddressSearch.Services.csproj",
-      "packagesPath": "C:\\Users\\ryanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryanm\\Desktop\\AddressSearch.Services\\AddressSearch.Services\\obj\\",
+      "projectPath": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\AddressSearch.Services.csproj",
+      "packagesPath": "C:\\Users\\ryan.freires\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ryanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ryan.freires\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Domain\\AddressSearch.Domain.csproj": {
+              "projectPath": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Domain\\AddressSearch.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -67,26 +90,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

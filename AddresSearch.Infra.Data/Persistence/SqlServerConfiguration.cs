@@ -1,9 +1,8 @@
-﻿using AddressSearch.Infra.Data.Persistence;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
 
-namespace SIGAVS.Infra.Data.Contexts
+namespace AddressSearch.Infra.Data.Persistence
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {

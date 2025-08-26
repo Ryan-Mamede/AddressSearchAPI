@@ -1,0 +1,12 @@
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\bin\Debug\net8.0\AddressSearch.Domain.deps.json
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\bin\Debug\net8.0\AddressSearch.Domain.dll
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\bin\Debug\net8.0\AddressSearch.Domain.pdb
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.AssemblyInfoInputs.cache
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.AssemblyInfo.cs
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.sourcelink.json
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.dll
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\refint\AddressSearch.Domain.dll
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\AddressSearch.Domain.pdb
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Domain\obj\Debug\net8.0\ref\AddressSearch.Domain.dll

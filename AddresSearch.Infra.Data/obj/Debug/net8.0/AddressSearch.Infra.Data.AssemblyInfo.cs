@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressSearch.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a8f05b20385e0fc4e4b80e0dfa53cff589eb2e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b394217e060a72b2f7a816e81763dea1056ec925")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressSearch.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressSearch.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

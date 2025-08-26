@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddressSearch.Services.Domain
+namespace AddressSearch.Domain.Domain
 {
     public class Localizacao
     {

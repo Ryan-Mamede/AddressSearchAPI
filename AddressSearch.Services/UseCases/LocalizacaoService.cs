@@ -1,5 +1,6 @@
 ﻿using AddressSearch.Services.Common;
 using AddressSearch.Services.Contracts;
+using AddressSearch.Services.DTOs.Requests;
 using AddressSearch.Services.DTOs.Responses;
 using AddressSearch.Services.Mappings;
 
@@ -44,36 +45,25 @@ public class LocalizacaoService : ILocalizacaoService
     }
 
     public async Task<Result<LocalizacaoDto>> AtualizarPorCepAsync(
-      Guid id, string novoCep, CancellationToken ct)
+      Guid id, CancellationToken ct)
     {
         var loc = await _repo.ObterPorIdAsync(id, ct);
         if (loc is null)
             return Result<LocalizacaoDto>.Fail("Não encontrado.");
 
-        var cep = new string(novoCep.Where(char.IsDigit).ToArray());
-        if (cep.Length != 8)
-            return Result<LocalizacaoDto>.Fail("CEP inválido.");
-
-        if (!string.Equals(loc.Cep, cep, StringComparison.Ordinal))
-        {
-            if (await _repo.ExistePorCepAsync(cep, ct))
-                return Result<LocalizacaoDto>.Fail("CEP já cadastrado.");
-        }
-
-        var ext = await _viaCep.ObterPorCepAsync(cep, ct);
+        var ext = await _viaCep.ObterPorCepAsync(loc.Cep, ct);
         if (ext is null) 
             return Result<LocalizacaoDto>.Fail("CEP não encontrado no ViaCEP.");
 
-        loc.Cep = cep; 
         loc.Logradouro = ext.Logradouro;
         loc.Complemento = ext.Complemento;
         loc.Bairro = ext.Bairro;
         loc.LocalidadeNome = ext.Localidade;
         loc.Uf = ext.Uf;
-        loc.Ibge = ext.Ibge;
-        loc.Gia = ext.Gia;
-        loc.Ddd = ext.Ddd;
-        loc.Siafi = ext.Siafi;
+        loc.Ibge = ext?.Ibge ?? "";
+        loc.Gia = ext?.Gia ?? "";
+        loc.Ddd = ext?.Ddd ?? "";
+        loc.Siafi = ext?.Siafi ?? "";
         loc.DataAtualizacao = DateTime.UtcNow;
 
         _repo.Atualizar(loc);
@@ -93,4 +83,31 @@ public class LocalizacaoService : ILocalizacaoService
         return Result.Ok();
     }
 
+    public async Task<PagedResult<LocalizacaoDto>> ListarAsync(LocalizacaoListarRequest req, CancellationToken ct)
+    {
+        var page = req.Page < 1 ? 1 : req.Page;
+        var pageSize = req.PageSize < 1 ? 10 : Math.Min(req.PageSize, 100);
+
+        var q = _repo.Query();
+
+        if (!string.IsNullOrWhiteSpace(req.Uf))
+            q = q.Where(x => x.Uf == req.Uf);
+
+        if (!string.IsNullOrWhiteSpace(req.CepPrefix))
+        {
+            var prefix = new string(req.CepPrefix.Where(char.IsDigit).ToArray());
+            if (!string.IsNullOrEmpty(prefix))
+                q = q.Where(x => x.Cep.StartsWith(prefix));
+        }
+
+        q = req.SortDesc ? q.OrderByDescending(x => x.DataCriacao)
+                         : q.OrderBy(x => x.DataCriacao);
+
+        var total = await _repo.CountAsync(q, ct);
+        var items = await _repo.ToPageAsync(q, req.Page, req.PageSize, ct);
+
+        var dtos = items.Select(e => e.ToDto()).ToList();
+        return new PagedResult<LocalizacaoDto>(dtos, total, req.Page, req.PageSize);
+
+    }
 }

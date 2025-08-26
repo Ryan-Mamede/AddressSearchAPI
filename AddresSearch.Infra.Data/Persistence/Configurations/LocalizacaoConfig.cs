@@ -1,4 +1,4 @@
-﻿using AddressSearch.Services.Domain;
+﻿using AddressSearch.Domain.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
