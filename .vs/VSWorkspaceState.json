@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AddresSearch.Infra.Data",
+    "\\AddresSearch.Infra.Data\\Persistence",
+    "\\AddresSearch.Infra.Data\\Persistence\\Configurations",
     "\\AddressSearch.Services",
     "\\AddressSearch.Services\\UseCases"
   ],
-  "SelectedNode": "\\AddressSearch.Services\\UseCases\\LocalizacaoService.cs",
+  "SelectedNode": "\\AddresSearch.Infra.Data\\Persistence\\Configurations\\LocalizacaoConfig.cs",
   "PreviewInSolutionExplorer": false
 }

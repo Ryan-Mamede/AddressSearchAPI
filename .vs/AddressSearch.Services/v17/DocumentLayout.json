@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|c:\\users\\ryan.freires\\desktop\\addresssearchapi\\addresssearch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F56A038-27C1-480E-988C-7BB5CA1B61CD}|AddressSearch\\AddressSearch.Api.csproj|solutionrelative:addresssearch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143492EB-3953-4219-A3EA-44C405D62C64}|AddressSearch.Domain\\AddressSearch.Domain.csproj|c:\\users\\ryan.freires\\desktop\\addresssearchapi\\addresssearch.domain\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143492EB-3953-4219-A3EA-44C405D62C64}|AddressSearch.Domain\\AddressSearch.Domain.csproj|solutionrelative:addresssearch.domain\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|c:\\users\\ryan.freires\\desktop\\addresssearchapi\\addressearch.infra.data\\persistence\\configurations\\localizacaoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72749030-32C1-4E36-B3DB-1DE619D76B7A}|AddresSearch.Infra.Data\\AddressSearch.Infra.Data.csproj|solutionrelative:addressearch.infra.data\\persistence\\configurations\\localizacaoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 237,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +62,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch\\appsettings.json",
+              "RelativeDocumentMoniker": "AddressSearch\\appsettings.json",
+              "ToolTip": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch\\appsettings.json",
+              "RelativeToolTip": "AddressSearch\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T18:34:12.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Domain\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "AddressSearch.Domain\\Domain\\User.cs",
+              "ToolTip": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Domain\\Domain\\User.cs",
+              "RelativeToolTip": "AddressSearch.Domain\\Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T16:49:54.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\Common\\Result.cs",
               "RelativeDocumentMoniker": "AddressSearch.Services\\Common\\Result.cs",
@@ -62,12 +96,11 @@
               "RelativeToolTip": "AddressSearch.Services\\Common\\Result.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:51:03.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T15:51:03.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FlexibleBoolJsonConverter.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs",
               "RelativeDocumentMoniker": "AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs",
@@ -75,12 +108,11 @@
               "RelativeToolTip": "AddressSearch.Services\\Common\\FlexibleBoolJsonConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:51:03.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T15:51:03.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LocalizacaoConfig.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddresSearch.Infra.Data\\Persistence\\Configurations\\LocalizacaoConfig.cs",
               "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\Persistence\\Configurations\\LocalizacaoConfig.cs",
@@ -93,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LocalizacaoMapping.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
               "RelativeDocumentMoniker": "AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
@@ -101,12 +133,11 @@
               "RelativeToolTip": "AddressSearch.Services\\Mappings\\LocalizacaoMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:48:28.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T15:48:28.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Localizacao.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch.Domain\\Domain\\Localizacao.cs",
               "RelativeDocumentMoniker": "AddressSearch.Domain\\Domain\\Localizacao.cs",
@@ -114,12 +145,11 @@
               "RelativeToolTip": "AddressSearch.Domain\\Domain\\Localizacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:29:20.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T15:29:20.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddressSearch\\Program.cs",
               "RelativeDocumentMoniker": "AddressSearch\\Program.cs",
@@ -127,12 +157,11 @@
               "RelativeToolTip": "AddressSearch\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T20:05:47.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T20:05:47.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ViaCepClient.cs",
               "DocumentMoniker": "C:\\Users\\ryan.freires\\Desktop\\AddressSearchAPI\\AddresSearch.Infra.Data\\Http\\ViaCepClient.cs",
               "RelativeDocumentMoniker": "AddresSearch.Infra.Data\\Http\\ViaCepClient.cs",
@@ -140,8 +169,7 @@
               "RelativeToolTip": "AddresSearch.Infra.Data\\Http\\ViaCepClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T18:45:38.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-25T18:45:38.951Z"
             }
           ]
         }

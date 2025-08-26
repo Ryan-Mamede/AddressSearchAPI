@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressSearch.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b394217e060a72b2f7a816e81763dea1056ec925")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7c278eaf0476c20ea4e44a006e490743ffd7b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressSearch.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressSearch.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
