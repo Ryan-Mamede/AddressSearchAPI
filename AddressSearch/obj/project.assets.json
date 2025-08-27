@@ -2284,7 +2284,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "AddressSearch.Domain": "1.0.0"
+          "AddressSearch.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.19",
+          "Microsoft.AspNetCore.Identity": "2.3.1",
+          "Microsoft.IdentityModel.Tokens": "8.14.0",
+          "System.IdentityModel.Tokens.Jwt": "8.14.0"
         },
         "compile": {
           "bin/placeholder/AddressSearch.Services.dll": {}

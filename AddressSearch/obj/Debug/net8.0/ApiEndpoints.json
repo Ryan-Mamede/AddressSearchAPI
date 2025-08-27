@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "AddressSearch.Api.Controllers.LoginController",
+    "Method": "Post",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AddressSearch.Services.DTOs.Requests.LoginPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AddressSearch.Api.Controllers.RegisterController",
+    "Method": "Post",
+    "RelativePath": "api/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AddressSearch.Services.DTOs.Requests.RegisterPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AddressSearch.Api.Controllers.LocalizacaoController",
     "Method": "CriarPorCep",
     "RelativePath": "localizacoes",

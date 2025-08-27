@@ -4,9 +4,10 @@
     "\\AddresSearch.Infra.Data",
     "\\AddresSearch.Infra.Data\\Persistence",
     "\\AddresSearch.Infra.Data\\Persistence\\Configurations",
+    "\\AddressSearch",
     "\\AddressSearch.Services",
     "\\AddressSearch.Services\\UseCases"
   ],
-  "SelectedNode": "\\AddresSearch.Infra.Data\\Persistence\\Configurations\\LocalizacaoConfig.cs",
+  "SelectedNode": "\\AddressSearch.Services.sln",
   "PreviewInSolutionExplorer": false
 }

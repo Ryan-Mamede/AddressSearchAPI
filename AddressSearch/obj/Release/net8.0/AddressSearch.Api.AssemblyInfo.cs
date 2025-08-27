@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressSearch.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7c278eaf0476c20ea4e44a006e490743ffd7b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bb3270b9bd0e37faddb6ed2ffec7f2672d1d264")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressSearch.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressSearch.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

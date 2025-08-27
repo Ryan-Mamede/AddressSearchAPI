@@ -22,7 +22,7 @@ namespace AddressSearch.Infra.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AddressSearch.Services.Domain.Localizacao", b =>
+            modelBuilder.Entity("AddressSearch.Domain.Domain.Localizacao", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,17 +49,14 @@ namespace AddressSearch.Infra.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Ddd")
-                        .IsRequired()
                         .HasMaxLength(5)
                         .HasColumnType("nvarchar(5)");
 
                     b.Property<string>("Gia")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Ibge")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
@@ -74,7 +71,6 @@ namespace AddressSearch.Infra.Data.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Siafi")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
@@ -89,6 +85,37 @@ namespace AddressSearch.Infra.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Localizacao", (string)null);
+                });
+
+            modelBuilder.Entity("AddressSearch.Domain.Domain.Usuario", b =>
+                {
+                    b.Property<Guid>("IdUsuario")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DataInclusao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.HasKey("IdUsuario");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.ToTable("USUARIO", (string)null);
                 });
 #pragma warning restore 612, 618
         }

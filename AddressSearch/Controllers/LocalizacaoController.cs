@@ -1,10 +1,12 @@
 ﻿using AddressSearch.Services.Contracts;
 using AddressSearch.Services.DTOs.Requests;
 using AddressSearch.Services.DTOs.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AddressSearch.Api.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("localizacoes")]
 [Produces("application/json")]

@@ -26,3 +26,5 @@ C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\bin\Debug\
 C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\bin\Debug\net8.0\AddressSearch.Domain.pdb
 C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.csproj.AssemblyReference.cache
 C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\obj\Debug\net8.0\AddressS.1241DED3.Up2Date
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\bin\Debug\net8.0\AddressSearch.Services.runtimeconfig.json
+C:\Users\ryan.freires\Desktop\AddressSearchAPI\AddressSearch.Services\obj\Debug\net8.0\AddressSearch.Services.genruntimeconfig.cache
