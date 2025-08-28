@@ -68,6 +68,5 @@ docker-compose*.override.yml
 *.mdf
 *.ldf
 
-## ====== NÃO IGNORAR ======
-# Garanta que Migrations permaneçam versionadas
-#!**/Migrations/
+
+!**/Migrations/
