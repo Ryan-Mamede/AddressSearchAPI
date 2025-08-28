@@ -1,0 +1,73 @@
+## ====== IDEs / Usuário ======
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+
+## ====== Build / Artefatos ======
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+logs/
+*.log
+
+## ====== Testes / Cobertura ======
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.xml
+lcov.info
+
+## ====== Pacotes / NuGet ======
+# Usando PackageReference (padrão), a pasta "packages" não é necessária.
+packages/
+*.nupkg
+*.snupkg
+# Cache local do NuGet
+.nuget/packages/
+
+## ====== Configurações locais (NÃO versionar segredos) ======
+# Deixe appsettings.json versionado, mas ignore variações locais/privadas
+**/appsettings.Development.json
+**/appsettings.*.local.json
+**/appsettings.*.Local.json
+**/appsettings.*.private.json
+**/secrets.json
+.env
+*.local.settings.json
+
+## ====== Publicação ======
+publish/
+artifacts/
+
+## ====== Ferramentas/Roslyn/ReSharper/Rider/etc. ======
+_ReSharper.Caches/
+_ReSharper*/
+*.DotSettings.user
+*.ncrunch*
+*.spi
+
+## ====== SO / Misc ======
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+## ====== Docker (se usar) ======
+docker-compose*.override.yml
+**/.containerignore
+
+## ====== SQL/LocalDB (se gerar arquivos locais) ======
+*.mdf
+*.ldf
+
+## ====== NÃO IGNORAR ======
+# Garanta que Migrations permaneçam versionadas
+#!**/Migrations/
